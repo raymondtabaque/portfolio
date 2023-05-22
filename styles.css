@@ -20,3 +20,33 @@ header {
     z-index: 10;
 }
 
+.logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.logo h1 {
+    margin-left: 1rem;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+}
+
+.navigation li {
+    padding: 0 2rem;
+    text-shadow: .2rem .125rem .2rem black;
+}
+
