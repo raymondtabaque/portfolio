@@ -12,12 +12,12 @@ body {
 
 header {
     display: inline-flex;
-    position: fixed;
     width: 100%;
     height: 5rem;
     background-color: #000080;
     box-shadow: .125rem .125rem .125rem black;
     z-index: 10;
+    bottom: 85.9%;
 }
 
 .logo {
@@ -48,5 +48,29 @@ header {
 .navigation li {
     padding: 0 2rem;
     text-shadow: .2rem .125rem .2rem black;
+}
+
+.mainbody {
+    display: inline-flex;
+    width: 100%;
+    height: 3rem;
+    height: 40rem;
+    background-color: red;
+}
+
+.projects {
+    display: flexbox;
+    width: 50%;
+}
+
+.mainimage {
+    display: flexbox
+    width: 10%;
+    height: 30%;
+}
+
+.mainimage img {
+    margin-top: 3rem;
+    width: 30rem;
 }
 
