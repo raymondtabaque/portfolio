@@ -1,0 +1,22 @@
+html {
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: black;
+}
+
+/*navigation bar*/
+
+header {
+    display: inline-flex;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    background-color: #000080;
+    box-shadow: .125rem .125rem .125rem black;
+    z-index: 10;
+}
+
