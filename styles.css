@@ -32,6 +32,7 @@ header {
 
 .logo h1 {
     margin-left: 1rem;
+    visibility: hidden;
 }
 
 .navigation {
@@ -61,16 +62,24 @@ header {
 }
 
 .mainbox {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background-color:orange;
     width: 100%;
     margin: 20px;
     height: 20rem;
 }
 
+.imagebox {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .imagebox img {
     width: 200px;
     height: 200px;
-    display: flexbox;
-    justify-items: center;
+    margin: 3rem;
 }
