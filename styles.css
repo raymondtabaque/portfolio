@@ -65,10 +65,9 @@ header {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color:orange;
     width: 100%;
     margin: 20px;
-    height: 20rem;
+    height: 25rem;
 }
 
 .imagebox {
@@ -79,7 +78,10 @@ header {
 }
 
 .imagebox img {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     margin: 3rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: .150rem .150rem .150rem black;
 }
