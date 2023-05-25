@@ -102,7 +102,6 @@ header {
 
 .projectboxes {
     display: flex;
-    justify-content: space-around;
     width: 100%;
     height: auto;
 }
@@ -120,7 +119,7 @@ header {
 }
 
 .projectimage {
-    height: 12.5rem;
+    height: 11.5rem;
     margin: 0 .5rem;
 }
 
