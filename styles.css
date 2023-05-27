@@ -15,7 +15,7 @@ header {
     display: inline-flex;
     width: 100%;
     height: 5rem;
-    background-color: white;
+    background-color: navy;
     box-shadow: .125rem .125rem .125rem black;
     z-index: 10;
     top: 0;
@@ -45,10 +45,12 @@ header {
     display: inline-flex;
     align-items: center;
     width: 50%;
+
 }
 
 .navigation li {
     padding: 0 2rem;
+    color: white;
 }
 
 /*intro and Banner*/
