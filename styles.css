@@ -88,8 +88,8 @@ header {
 .lowbody {
     position: relative;
     width: 96%;
-    height: 29rem;
-    margin: 3rem 0;
+    height: 27rem;
+    margin: 1rem 0;
 }
 
 .projectitle {
@@ -130,4 +130,27 @@ header {
 
 .projectdescription p {
     text-align: center;
+}
+
+/* footer section */
+
+.lowersection {
+    height: 10rem;
+}
+
+.footlist {
+    padding-left: 0;
+    list-style: circle;
+}
+
+.footsection ul li:before {
+    content: '•';
+}
+
+#copyright {
+    font-size: 12px;
+}
+
+.copyfoot {
+    margin-top: 2rem;
 }
