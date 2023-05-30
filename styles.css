@@ -91,7 +91,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 96%;
-    height: 27rem;
+    height: 25rem;
     margin: 1rem 0;
 }
 
@@ -105,7 +105,9 @@ header {
 }
 
 .projectboxes {
-    display: flex;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
     width: 100%;
     height: auto;
 }
@@ -139,7 +141,10 @@ header {
 /* footer section */
 
 .lowersection {
+    position: relative;
     height: 10rem;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .footlist {
@@ -153,8 +158,4 @@ header {
 
 #copyright {
     font-size: 12px;
-}
-
-.copyfoot {
-    margin-top: 2rem;
 }
