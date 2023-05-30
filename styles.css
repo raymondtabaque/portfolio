@@ -53,6 +53,12 @@ header {
     color: white;
 }
 
+.button {
+    background-color: orange;
+    align-self: center;
+    justify-self: end;
+}
+
 /*intro and Banner*/
 
 .mainbody {
