@@ -81,7 +81,6 @@ header {
     height: 20rem;
     margin: 3rem;
     border-radius: 50%;
-    opacity: 0.8;
     box-shadow: .150rem .150rem .150rem black;
 }
 
@@ -89,6 +88,8 @@ header {
 
 .lowbody {
     position: relative;
+    display: flex;
+    flex-direction: column;
     width: 96%;
     height: 27rem;
     margin: 1rem 0;
@@ -100,6 +101,7 @@ header {
 
 .projecttitle h2 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .projectboxes {
@@ -109,7 +111,6 @@ header {
 }
 
 .projects {
-    display: flexbox;
     width: 100%;
     margin: 0 1rem;
     border: 1px solid black;
@@ -118,6 +119,7 @@ header {
 
 .projectdescript h3 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .projectimage {
