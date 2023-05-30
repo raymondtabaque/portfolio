@@ -55,7 +55,7 @@ header {
     color: white;
 }
 
-.button {
+#headerbutton {
     align-self: center;
     width: 30%;
     background-color: #f2c300;
@@ -64,15 +64,20 @@ header {
     box-shadow: .1rem .1rem .5rem black;
 }
 
-.button p {
+#headerbutton p {
     text-align: center;
 }
 
-.button a {
+#headerbutton a {
     text-decoration: none;
+
 }
 
-.button:active {
+#headerbutton:hover {
+    cursor: pointer;
+}
+
+#headerbutton:active {
     box-shadow: 0 0 0 black;
 }
 
