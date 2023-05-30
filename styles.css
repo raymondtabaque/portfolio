@@ -33,6 +33,7 @@ header {
 .logo h1 {
     margin-left: 1rem;
     visibility: hidden;
+    text-transform: uppercase;
 }
 
 .navigation {
@@ -44,6 +45,7 @@ header {
     list-style-type: none;
     display: inline-flex;
     align-items: center;
+    margin-right: 10rem;
     width: 50%;
 
 }
@@ -54,9 +56,24 @@ header {
 }
 
 .button {
-    background-color: orange;
     align-self: center;
-    justify-self: end;
+    width: 30%;
+    background-color: #f2c300;
+    margin-right: .8rem;
+    border-radius: .75rem;
+    box-shadow: .1rem .1rem .5rem black;
+}
+
+.button p {
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button:active {
+    box-shadow: 0 0 0 black;
 }
 
 /*intro and Banner*/
