@@ -38,7 +38,7 @@ header {
 }
 
 .navigation {
-    width: 100%;
+    width: 70%;
 }
 
 .navigation ul {
@@ -59,7 +59,7 @@ header {
 
 #headerbutton {
     align-self: center;
-    width: 50%;
+    width: 20%;
     background-color: #f2c300;
     margin-right: .8rem;
     border-radius: .75rem;
