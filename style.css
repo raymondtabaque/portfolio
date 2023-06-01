@@ -220,7 +220,6 @@ header .logo {
 }
 
 #headerbutton {
-    align-self: left;
     width: 23%;
     margin-right: 10px;
 }
@@ -336,5 +335,293 @@ footer {
 #copyright {
     font-size: .7rem;
 }
+}
 
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+    /* Header */
+    
+    header {
+        width: 100%;
+        margin: 0 auto;
+        height: 4rem;
+    }
+    
+    header .logo {
+        display: none;
+    }
+    
+    .navigation ul {
+        padding-left: 10px;
+    }
+    
+    .navigation li {
+        font-size: .9rem;
+        padding: 0 .8rem;
+    }
+    
+    #headerbutton {
+        width: 23%;
+        margin-right: 10px;
+    }
+    
+    #headerbutton p {
+        font-size: .9rem;
+    }
+    
+    /* main banner */
+    
+    
+    .mainbody {
+        width: 100%;
+        height: 20rem;
+        top: 5rem;
+    }
+    
+    .mainbox {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .imagebox {
+        height: auto;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .imagebox img {
+        display: block;
+        margin: auto;
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .description {
+        width: 100%;
+    }
+    
+    .description h1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    /* Project Section */
+    
+    .lowbody {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .projecttitle h2 {
+        font-size: 1rem;
+    }
+    
+    .projectboxes {
+        display: grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        row-gap: 1rem;
+        width: 95%;
+        height: auto;
+    }
+    
+    .projects {
+        width: 100%;
+        margin: 0 1.1rem;
+        border: 1px solid black;
+        box-shadow: .0625rem .2rem .0625rem black;
+    }
+    
+    .projectdescript h3 {
+        font-size: 1rem;
+    }
+    
+    .projectimage {
+        height: auto;
+        margin: 0 5px;
+    }
+    
+    .projectimage img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .projectdescription p {
+        font-size: 1rem;
+    }
+    
+    /* footer */
+    
+    footer {
+        width: 100%;
+    }
+    
+    .lowersection {
+        position: relative;
+        height: auto;
+        display: block;
+    }
+    
+    .footsection ul {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    
+    .footsection li {
+        font-size: .9rem;
+        text-align: center;
+    
+    }
+    
+    #copyright {
+        font-size: .8rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* Header */
+    
+    header {
+        width: 100%;
+        margin: 0 auto;
+        height: 4rem;
+    }
+    
+    header .logo {
+        display: none;
+    }
+    
+    .navigation ul {
+        padding-left: 10px;
+    }
+    
+    .navigation li {
+        font-size: .9rem;
+        padding: 0 .8rem;
+    }
+    
+    #headerbutton {
+        width: 23%;
+        margin-right: 10px;
+    }
+    
+    #headerbutton p {
+        font-size: .9rem;
+    }
+    
+    /* main banner */
+    
+    
+    .mainbody {
+        width: 100%;
+        height: 20rem;
+        top: 5rem;
+    }
+    
+    .mainbox {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .imagebox {
+        height: auto;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .imagebox img {
+        display: block;
+        margin: auto;
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .description {
+        width: 100%;
+    }
+    
+    .description h1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    /* Project Section */
+    
+    .lowbody {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .projecttitle h2 {
+        font-size: 1rem;
+    }
+    
+    .projectboxes {
+        display: grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        row-gap: 1rem;
+        width: 95%;
+        height: auto;
+    }
+    
+    .projects {
+        width: 100%;
+        margin: 0 1.1rem;
+        border: 1px solid black;
+        box-shadow: .0625rem .2rem .0625rem black;
+    }
+    
+    .projectdescript h3 {
+        font-size: 1rem;
+    }
+    
+    .projectimage {
+        height: auto;
+        margin: 0 5px;
+    }
+    
+    .projectimage img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .projectdescription p {
+        font-size: 1rem;
+    }
+    
+    /* footer */
+    
+    footer {
+        width: 100%;
+    }
+    
+    .lowersection {
+        position: relative;
+        height: auto;
+        display: block;
+    }
+    
+    .footsection ul {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    
+    .footsection li {
+        font-size: .9rem;
+        text-align: center;
+    
+    }
+    
+    #copyright {
+        font-size: .8rem;
+        text-align: center;
+    }
 }
